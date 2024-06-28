@@ -8,7 +8,7 @@ def main():
     """
     while(number > 2):
         result.append(number%2)
-        result /= 2
+        number //= 2
 
     print(*result)
     ########################################

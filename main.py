@@ -9,8 +9,8 @@ def main():
     while(number > 2):
         result.append(number%2)
         number //= 2
-
-    print(*result)
+    result.append(number%2)
+    print(result)
     ########################################
     # Do not delete the return statement
     ########################################

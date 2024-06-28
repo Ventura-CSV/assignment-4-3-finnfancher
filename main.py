@@ -6,7 +6,7 @@ def main():
     Code Your Program here
     ########################################
     """
-    while(number > 2):
+    while(number >= 2):
         result.append(number%2)
         number //= 2
     result.append(number%2)
